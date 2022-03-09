@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="loading()">
+	<div class="menu">
+		<div id="logo"><img src="img/logo.png"  width="43px" alt=""></div>
+		<div id="home" onclick="window.location.reload()" onmouseover="bigger(this)" onmouseout="smaller(this)">Home</div>
+		<div id="men" onclick="changeM(this)" onmouseover="bigger(this)" onmouseout="smaller(this)">Men</div>
+		<div id="women" onclick="changeM(this)"onmouseover="bigger(this)" onmouseout="smaller(this)">Women</div>
+		<div id="winter" onclick="changeM(this)" onmouseover="bigger(this)" onmouseout="smaller(this)">Winter Wear</div>
+		
+	</div>
+	<div class="content" onmouseover="sale()">
+		<div class="text" >
+			<h1 id="headText">Trending Now</h1>
+			<h4 id="headText2">Students now get 10% Off!</h4></div>
+			<div class="trends" >
+			<div class="first">
+				<img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_415,c_limit/gjyvetexafxuetf5gej7/air-max-plus-older-shoe-q72QTp.png"id="img1" width="400px" alt="">
+				<p id="info1">Nike Air Max Plus | $110.78</p>
+			</div>
+			<div class="second">
+				<img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_415,c_limit/2a610bb6-4907-4f51-ace6-6b1d493b941f/sportswear-tech-fleece-hoodie-XJbPCP.png" id="img2" width="400px" alt="">
+				<p id="info2">Nike Sportswear Tech Fleece | $102.31</p></div>
+			
+		</div>
+		
+		
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

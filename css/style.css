@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  padding-top: 15px;
+  background-color: black;
+}
+.menu div{
+  color: white;
+  font-size: 20px;
+
+   
+}
+.trends{
+  padding: 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#info1, #info2{
+  opacity: 0;
+}
+#logo, #home, #men, #women, #order, #winter{
+  cursor: pointer;
+}
+.text{
+
+  width: 600px;
+  height: 100px;
+  margin: 10px auto;
+}
+.content{
+  opacity: 0;
+}
+#img1, #img2, #headText2, #headText{
+  position: relative;
+}
+h4{
+  color: red;
+}
